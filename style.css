@@ -1,0 +1,109 @@
+:root {
+        background-color: #ecf5ff;
+        font-size: 50.5%;
+      }
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      h1 {
+        color: #56a5eb;
+      }
+      .text {
+       margin-bottom: 6rem;
+       font-size: 3rem;
+      }
+            * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+      }
+      .pass-container {
+        max-width: 510px;
+        margin: 0 auto;
+        /* padding: 0px 20px; */
+        width: 350px;
+        position: relative;
+        /* border: 2px solid black; */
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        touch-action:none;
+        touch-action: pan-x pan-y;
+        overscroll-behavior-y: contain;
+      }
+      input[type='text'],input[type='password']{
+        touch-action: manipulation;
+        font-size: 16px;
+      }
+      input {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        position: relative;
+
+      }
+      #password {
+        position: relative;
+      }
+      .fa{
+        position: absolute;
+        /* top: 370px;
+        right: 730px; */
+        bottom: 85px;
+        left:  330px;
+        cursor: pointer;
+
+      }
+      input::placeholder {
+        padding-left: 0.5rem;
+      }
+      button {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid orange;
+        color: orange;
+        font-size: 2rem;
+        transition: all 2s;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: orange;
+        color: aliceblue;
+      }
+      .style{
+        display: block;
+      }
+      .mystyle{
+        color: red;
+        text-align: center;
+        margin-bottom: 5px;
+      }
+      html{
+        touch-action: manipulation; 
+      }
+      @media screen and (max-width:900px) {
+        h1{
+            /* font-size: 0rem; */
+            width: 100%;
+            font-size: 25px;
+
+            text-align: center;
+        }
+              .pass-container{
+                width: 300px;
+                max-width: 450px;
+              }
+              .fa{
+        left:  280px;
+
+              }
+      }
