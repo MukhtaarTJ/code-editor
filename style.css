@@ -44,11 +44,18 @@
       }
       input {
         width: 100%;
+        padding-left: 10px;
         height: 50px;
         margin-bottom: 1rem;
         border-radius: 10px;
         position: relative;
 
+      }
+      input::placeholder{
+        padding-right: 50px;
+      }
+      input::content{
+        padding: 10px;
       }
       #password {
         position: relative;
@@ -60,6 +67,7 @@
         bottom: 85px;
         left:  330px;
         cursor: pointer;
+        font-size: 13px;
 
       }
       input::placeholder {
